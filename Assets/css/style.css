@@ -1,9 +1,10 @@
 body {
     /* more on crazy alphanumerical value in a minute!*/
     font-family: Helvetica, Arial, sans-serif;
+    background-color:#cfe1e6 ;
 }
 header{
-    color:#f5c827;
+    color:#5ebed6;
     padding: 20px 35px;
     display: flex;
     justify-content: center;
@@ -18,12 +19,15 @@ header h1 {
     display: center;
 }
 header a{
-    color:#f5c827;
+    color:#5ebed6;
+}
+nav{
+    
 }
 .contact-info h2, .projects h2,.about-me h2 {
     font-weight: bold;
     font-size: 28px ;
-    color:#f5c827;
+    color:#45454d;
     text-align: left;
     display: flex;
     writing-mode: vertical-rl;
@@ -31,6 +35,7 @@ header a{
     padding:50px;
     flex-wrap: wrap;
     margin-top: 0;
+    text-shadow: 0 0 3px rgba(94, 190, 214, 0.5);
 
 
 }
@@ -49,23 +54,23 @@ nav ul {
     text-decoration: none;
 }
 .project-cards{
-    margin: 0 auto;
-    padding-bottom: 10px;
-    width: 40%;
+    margin:0 auto;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    border:solid 10px #f5c827;
+    justify-content: space-evenly;
+    
+    width:30%;
 }
 .contact-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around ;
+    justify-content:space-between;
     align-items:center;
     list-style:none; 
     font-weight: lighter;
     font-size: 1.55vw;
     text-decoration: none;
+    width:100%
 }
  li{
     padding: 50px 20px;
@@ -73,18 +78,32 @@ nav ul {
     font-size: 1.55vw;
     text-decoration: none;
 }
-.about-me p{
-    display:inline;
-    padding-bottom: 50px;
+.bio{
+    display:block;
 
 }
 .projects h3{
     font-weight: normal;
     font-size: 20px ;
-    color:#f5c827;
+    color:#45454d;
     text-align: center;
+    text-shadow: 0 0 3px rgba(94, 190, 214, 0.5);
+    border-bottom:2px solid #5ebed6;
+}
+#projects, #about-me, #contact-info{
+    display:flex;
+
 }
 
-
-
-    
+#projects{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.iframe h3:hover{
+    color:#5ebed6;
+    background-color: #010b0e;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
