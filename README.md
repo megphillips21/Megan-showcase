@@ -13,6 +13,6 @@ Current work shown-
 
 
 ### Screenshot of Hero image and navigation header
-![projects](https://github.com/megphillips21/portfolio/blob/main/Assets/images/screenshot.JPG)
+![projects](https://raw.githubusercontent.com/megphillips21/portfolio/main/Assets/images/screenshot.JPG)
 
 Website url https://megphillips21.github.io/portfolio/
